@@ -11,7 +11,7 @@ h1{
 }
 
 .lank {
-  float: left;
+  float:left;
   margin-top: -25px;
   margin-left: 60px;
   font-size: 40px;
@@ -20,4 +20,10 @@ h1{
 .lank a {
   color: black;
   text-decoration: none;
+}
+
+@media screen and (max-width: 1090px) {
+  #lankar {
+    
+  }
 }

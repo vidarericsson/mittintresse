@@ -1,9 +1,9 @@
 .grid-container {
   height: 100%;
   display: grid;
-  grid-template: 80px 300px 30px / repeat(11, 1fr);
+  grid-template: 80px 300px 30px / repeat(auto-fit, 1fr);
   grid-template-areas:
-    "h h h l1 l1 l2 l2 l3 l3 l4 l4"
+    "h h h m m m m m m m m m"
     "c c c c c c c c c c c c"
     "f f f f f f f f f f f f";
 }
@@ -13,21 +13,9 @@
     background-color: grey;
 }
 
-.l1 {
-  grid-area: l1;
+.menu {
+  grid-area: m;
   background-color: grey;
-}
-
-.l2{
-  grid-area: l2;
-}
-
-.l3{
-  grid-area: l3;
-}
-
-.l4{
-  grid-area: l4;
 }
 
 .content {
