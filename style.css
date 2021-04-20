@@ -21,8 +21,29 @@ h1{
   color: black;
   text-decoration: none;
 }
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.hl #myLinks {
+  display: none;
+}
+
+
+
 @media screen and (max-width: 1090px) {
   .lank a {
     display: none;
   }
+
+  .hamburgare {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+  }
+
+  .hl {
+    float:right;
+    margin-right: 30px
+  }
+
 }
