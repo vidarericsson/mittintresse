@@ -31,13 +31,14 @@ h1{
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  display: block;
   float:right;
+  display: block;
+  width: 100%;
 }
 
-
-
-
+button{
+  display: none;
+}
 
 
 
@@ -46,12 +47,11 @@ h1{
     display: none;
   }
   button{
+    display: inline;
     border: none;
     background-color: gray;
     float: right;
     margin-top: -25px;
 
   }
-
-
 }
