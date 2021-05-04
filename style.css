@@ -1,7 +1,7 @@
 h1{
   font-size: 60px;
   margin-top: auto;
-  margin-left: 20px;
+  text-align: center;
 }
 #lankar {
   list-style-type: none;
@@ -11,10 +11,12 @@ h1{
 }
 
 .lank {
-  float:left;
+  float: left;
   margin-top: -25px;
   margin-left: 60px;
   font-size: 40px;
+  text-align: center;
+
 }
 
 .lank a {
@@ -40,9 +42,35 @@ button{
   display: none;
 }
 
+#meny {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+h2 {
+  text-decoration: underline;
+  font-size: 40px;
+  font-style: italic;
+}
 
-@media screen and (max-width: 1090px) {
+p {
+  font-size: 20px;
+}
+
+.övningarbild {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+@media screen and (max-width: 1300px) {
   .lank a {
     display: none;
   }
