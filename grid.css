@@ -8,7 +8,7 @@
     "f f f f f f f f f f f f";
 }
 
-.header {
+header {
     grid-area: h;
     background-color: grey;
 }

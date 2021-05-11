@@ -57,7 +57,7 @@ button{
   width: 100%;
 }
 
-#bild {
+.bild {
   width: 80%;
   display: block;
   margin-left: auto;
