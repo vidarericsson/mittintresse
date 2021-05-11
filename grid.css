@@ -1,4 +1,4 @@
-.grid-container {
+grid-container {
   height: 100%;
   display: grid;
   grid-template: 80px 300px 30px / repeat(auto-fit, 1fr);
